@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content xmlns:tools="http://schemas.android.com/tools">
+    <include domain="sharedpref" path="." />
+    <exclude domain="sharedpref" path="notifier.xml"
+        tools:ignore="FullBackupContent" />
+    <exclude domain="sharedpref" path="no_backup.xml"
+        tools:ignore="FullBackupContent" />
+    <include domain="database" path="." />
+</full-backup-content>

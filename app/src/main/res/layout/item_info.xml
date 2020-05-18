@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/info_title"
+        tools:text="Information title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?android:textColorPrimary" />
+
+    <TextView
+        android:id="@+id/info_text"
+        tools:text="This is detailed information of the attribute."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?android:textColorSecondary" />
+
+</LinearLayout>

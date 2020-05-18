@@ -1,0 +1,73 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/general">
+
+        <SwitchPreferenceCompat
+            app:iconSpaceReserved="false"
+            app:key="insertOngoing"
+            app:summaryOff="@string/_ongoing_summary"
+            app:summaryOn="@string/_ongoing_summary"
+            app:title="@string/capture_ongoing_notifications" />
+
+        <DropDownPreference
+            app:defaultValue="50000"
+            app:entries="@array/max_entries"
+            app:entryValues="@array/max_values"
+            app:iconSpaceReserved="false"
+            app:key="maxEntries"
+            app:summary="@string/summary_max_entries"
+            app:title="@string/maximum_entries" />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="count"
+            app:selectable="false"
+            app:title="@string/current_entries" />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="clear"
+            app:summary="@string/_summary_clear"
+            app:title="@string/clear" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/backup">
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="export"
+            app:summary="@string/_summary_export"
+            app:title="@string/export" />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="import"
+            app:summary="@string/_summary_import"
+            app:title="@string/_import" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/system">
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="permission"
+            app:summary="@string/_get_permission_explanation"
+            app:title="@string/notification_access_permission" />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="notification"
+            app:summary="@string/_turn_off_notification_explanation"
+            app:title="@string/notification_setting" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
