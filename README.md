@@ -2,6 +2,8 @@
 
 **NotificationHistory** is an Android app that captures and saves all notifications received on your device's status bar. This allows you to review older or deleted notifications, including messages, chats, and any mistakenly dismissed push notifications.
 
+<a href="https://play.google.com/store/apps/details?id=in.omdev.notificationhistory"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="150"></a>
+
 ## Features
 
 - **Instant Notification Saving:** Automatically saves notifications as they arrive on your device.
